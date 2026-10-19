@@ -1,37 +1,81 @@
-# Learning Journal - Scrimba full stack: Solo Project 
+# Learning Journal
 
-## About The Project
+A responsive, multi-page learning journal built as a solo project for the **Scrimba Fullstack Developer Path**, following a Figma design and applying responsive web design principles.
 
-The project was the culmination of the Scrimba Responsive Design Module. The module covered responsive design concepts including: 
+## About the Project
 
-- Thinking responsively;
-- Relative CSS units;
-- Relative line-height;
-- Media queries;
-- Mobile-first design; 
-- Responsive site nav;
-- Flex-box features;
-- Grid features;
+Learning Journal is a blog-style website designed to document learning experiences, share recent posts, and provide information about the author. The project was developed from scratch using HTML, CSS, and JavaScript as part of the Scrimba Responsive Design module.
 
-The project aim was to build a three-page blog site comprising home page, about me page and feature page. The site was built from scratch according to a Figma design spec. Most of the images used were exported from the Figma file. Additional images for the blog-cards were downloaded from Unsplash plus personal photo used for about me page. All project requirements were met as follows:
+The website consists of three pages:
 
-- Build each page from scratch using HTML and CSS;
-- Make all pages responsive including: relative units, mobile first design, media queries, flex-box and css-grid skills, viewport meta tag;
+- **Home** — Displays blog posts and recent learning experiences.
+- **About Me** — Introduces the author and their learning journey.
+- **Featured Post** — Showcases a selected blog post in greater detail.
 
-The following stretch goals were also met:
+## Features
 
-- Make it your own - content about own learning experiences;
-- Display / hide additional recent posts after clicking "view more" / "view less";
-- Responsive navigation displaying a "hamburger menu" on smaller screens;
+- Responsive layouts for mobile, tablet, and desktop screens.
+- Mobile-first styling using relative CSS units and media queries.
+- Responsive navigation with a hamburger menu on smaller screens.
+- Dynamically rendered blog posts using JavaScript.
+- Modular JavaScript for rendering reusable page elements, including the header and footer.
+- Interactive **View More / View Less** functionality for recent posts.
+- Subtle image zoom effect on the homepage to highlight the featured post.
+- Consistent styling and layouts based on a Figma design reference.
 
-The following additional features were also incorporated:
+## Tech Stack
 
-- Using JavaScript to render the posts, header and footer, including modular JS;
-- Using CSS to produce a subtle zoom effect on the home-page main image to indicate the link to the feature page.
+- **HTML5** — Semantic page structure.
+- **CSS3** — Responsive styling, Flexbox, CSS Grid, and media queries.
+- **JavaScript** — Dynamic content rendering and interactive functionality.
 
-The project used mobile-first design apart from the navigation, as demonstrated as part of the teaching for this module. On reflection, mobile-first should be employed throughout the design to avoid a pixel which falls between screen sizes. 
+## What I Learned
 
-Photos from Unsplash:  Anoushka P, Miguel Bruna, Artem Sapegin
+Through this project, I strengthened my understanding of:
 
-Frances Hitchcock, 30 November 2022
+- Building responsive websites from scratch.
+- Applying mobile-first design principles.
+- Using relative units and responsive typography.
+- Creating layouts with Flexbox and CSS Grid.
+- Implementing responsive navigation.
+- Writing modular JavaScript to reuse components and render dynamic content.
+- Translating a Figma design into a functional website.
+- Improving user experience through small interactive details.
 
+## Project Structure
+
+```text
+LearningJournal-main/
+├── images/
+├── about.html
+├── feature.html
+├── index.html
+├── data.js
+├── journal.js
+├── style.css
+└── README.md
+```
+
+## Getting Started
+
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` in your browser, or use the **Live Server** extension for local development.
+4. Explore the homepage, About Me page, and featured post.
+
+## Future Improvements
+
+- Refine responsive behavior across additional viewport sizes.
+- Improve accessibility with keyboard navigation and appropriate semantic markup.
+- Add more journal entries and expand the content.
+- Explore a backend or content management system for managing posts dynamically.
+
+## Acknowledgements
+
+- **Scrimba** — For the Fullstack Developer Path and Responsive Design module.
+- **Figma** — For the original design reference.
+- **Unsplash** — For additional blog imagery.
+
+---
+
+*Built as part of my journey in learning frontend development and creating responsive, interactive web experiences.*
